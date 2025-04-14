@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+header {
+    background-color: #161b22;
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #58a6ff;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #8b949e;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+footer {
+    background-color: #161b22;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+    color: #8b949e;
+}
